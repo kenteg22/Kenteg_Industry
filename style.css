@@ -1,0 +1,127 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #0d0d1a;
+  color: #fff;
+}
+
+header {
+  background: #101030;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #00ffff;
+}
+
+.top-nav a {
+  color: #00ffff;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #00ff88;
+  color: #000;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #222;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 0.5rem;
+  display: block;
+  text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.cards-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.card {
+  background: #202040;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+  text-align: center;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card h3 {
+  color: #00ffff;
+  margin: 1rem 0 0.5rem;
+}
+
+.card p {
+  padding: 0 1rem;
+}
+
+.order-btn {
+  margin: 1rem;
+  padding: 0.8rem 1rem;
+  background: #00ff88;
+  border: none;
+  color: #000;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.form-container {
+  padding: 2rem;
+  max-width: 500px;
+  margin: auto;
+  background: #1a1a2e;
+  border-radius: 10px;
+}
+
+.form-container h2 {
+  text-align: center;
+  color: #00ffff;
+}
+
+form input, form textarea, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+}
+
+form button {
+  background: #00ff88;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
